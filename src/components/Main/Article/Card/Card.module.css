@@ -1,0 +1,38 @@
+.container {
+    width: 15vw;
+    min-width: 130px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+    padding: 20px 15px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 7px 9px 5px -5px rgba(0,0,0,0.19);
+}
+
+.container h5, h2, h6 {
+    margin: 0;
+}
+
+.confirmed {
+    border-bottom: 5px solid rgb(30, 144, 255);
+}
+
+.recovered {
+    border-bottom: 5px solid rgb(30, 255, 124);
+}
+
+.deaths {
+    border-bottom: 5px solid rgb(255, 30, 30);
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+}

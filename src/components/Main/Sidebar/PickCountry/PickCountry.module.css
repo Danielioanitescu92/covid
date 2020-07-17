@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px 0 20px 0;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 7px 9px 5px -5px rgba(0,0,0,0.19);
+}
+
+.container h4 {
+    margin: 10px;
+    margin-top: 0;
+}
+
+.container select {
+    margin: 0;
+    padding: 5px;
+    width: 90%;
+    background-color: rgb(30, 144, 255);
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
